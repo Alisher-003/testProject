@@ -3,6 +3,7 @@ import './main.css'
 import telegramm from  '../images/telegram.svg'
 import facebook from '../images/facebookFooter.png'
 import instagramm from '../images/instaFooter.png'
+import {Link} from "react-router-dom";
 
 class Footer extends Component {
     render() {
@@ -11,7 +12,7 @@ class Footer extends Component {
                 <div className="container">
                     <div className="row pt-5">
                         <div className="col-5 text-white mt-4 ml-auto">
-                            <h4>TECH YARD SOLUTION</h4>
+                            <Link to='/'><h4 className='text-white'>TECH YARD SOLUTION</h4></Link>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Duis sed velit euismod, iaculis
                                 velit et, viverra nisl. Mauris <br/> quis varius nulla</p>
                         </div>

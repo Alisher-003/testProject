@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.css'
+import {Link} from "react-router-dom";
 
 
 const ContactUs = () => {
@@ -33,7 +34,7 @@ const ContactUs = () => {
                     </div>
 
                     <div className="col-6">
-                        <h2>Let's talk</h2>
+                        <Link to='/'><h2 className='text-dark text-decoration-none'>Let's talk</h2></Link>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Duis sed velit euismod, iaculis
                             velit et, viverra nisl. <br/> Mauris quis varius nulla</p>
                     </div>

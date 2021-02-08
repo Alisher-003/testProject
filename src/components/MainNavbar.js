@@ -15,8 +15,8 @@ const MainNavbar = () => {
                                                                      href="#">SERVICES</Link></li>
                                     <li className="nav-item px-2"><Link to='about' className="nav-link my-2 border-left" href="#">ABOUT
                                         US</Link></li>
-                                    <li className="nav-item px-2"><a className="nav-link my-2 border-left" href="#">CASE
-                                        STUDIES</a></li>
+                                    <li className="nav-item px-2"><Link to='onlineStore' className="nav-link my-2 border-left" href="#">CASE
+                                        STUDIES</Link></li>
                                     <li className="nav-item px-2"><Link to='/contacts' className="nav-link my-2 border-left"
                                                                      href="#">CONTACTS</Link></li>
                                 </ul>

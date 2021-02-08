@@ -17,9 +17,9 @@ const Header = () => {
                         <ul className="navbar-nav">
                             <li className="nav-item px-2"><Link to='/' className="nav-link my-2" >HOME</Link></li>
                             <li className="nav-item px-2"><Link to='/services' className="nav-link my-2 border-left" href="#">SERVICES</Link></li>
-                            <li className="nav-item px-2"><a className="nav-link my-2 border-left" href="#">ABOUT US</a></li>
-                            <li className="nav-item px-2"><a className="nav-link my-2 border-left" href="#">CASE STUDIES</a></li>
-                            <li className="nav-item px-2"><a className="nav-link my-2 border-left" href="#">CONTACTS</a></li>
+                            <li className="nav-item px-2"><Link to='/about' className="nav-link my-2 border-left" href="#">ABOUT US</Link></li>
+                            <li className="nav-item px-2"><Link to='/onlineStore' className="nav-link my-2 border-left" href="#">CASE STUDIES</Link></li>
+                            <li className="nav-item px-2"><Link to='/contacts' className="nav-link my-2 border-left" href="#">CONTACTS</Link></li>
                         </ul>
                 </div>
                     </nav>
