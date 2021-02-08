@@ -5,11 +5,10 @@ import testingicon from "../images/services2.png";
 import Ulicon from "../images/services3.png";
 import automation from "../images/services6.png";
 import deployicon from "../images/services5.png";
-import mobileDevelop from "../images/services4.png"
 
-const AutomationServices = () => {
+const TestingServices = () => {
     return (
-        <section id="automationServices">
+        <section id="testingServices">
             <div className="container">
 
                 <div className='d-inline-block'>
@@ -41,9 +40,9 @@ const AutomationServices = () => {
                                     <img src={testingicon} alt=""/>
                                 </div>
                                 <div className="col-9 text-white">
-                                    <h4>Testing</h4>
+                                    <h4>Mobile Develop</h4>
                                     <p>There is a web design for the bridge to be beautiful and for the customers...</p>
-                                    <Link to='testing'>more...</Link>
+                                    <Link to='mobDevelop'>more...</Link>
                                 </div>
                             </div>
 
@@ -69,12 +68,12 @@ const AutomationServices = () => {
                             <div className="card">
                                 <div className="row">
                                     <div className="col-3 pt-4">
-                                        <img src={mobileDevelop} alt=""/>
+                                        <img src={automation} alt=""/>
                                     </div>
                                     <div className="col-9 text-white">
                                         <h4>Automation</h4>
                                         <p>There is a web design for the bridge to be beautiful and for the customers...</p>
-                                        <Link to='mobDevelop'>more...</Link>
+                                        <Link to='automation'>more...</Link>
                                     </div>
                                 </div>
 
@@ -102,4 +101,4 @@ const AutomationServices = () => {
     );
 };
 
-export default AutomationServices;
+export default TestingServices;

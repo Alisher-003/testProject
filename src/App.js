@@ -24,10 +24,9 @@ function App() {
       <BrowserRouter>
 
         {/*<Home/>*/}
-        {/*<Home/>*/}
-        {/*<Home/>*/}
-        {/*<Home/>*/}
-        {/*<Home/>*/}
+        {/*  {WebDevelopment}*/}
+        {/*  {WebDevelopment}*/}
+
 
 
         <Switch>

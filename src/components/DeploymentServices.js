@@ -29,7 +29,7 @@ const DeploymentServices = () => {
                                 <div className="col-9 text-white ">
                                     <h4>Testing</h4>
                                     <p>There is a web design for the bridge to be beautiful and for the customers...</p>
-                                    <Link to="/third">more...</Link>
+                                    <Link to="/testing">more...</Link>
                                 </div>
                             </div>
 
@@ -44,7 +44,7 @@ const DeploymentServices = () => {
                                 <div className="col-9">
                                     <h4>Web Develop</h4>
                                     <p>There is a web design for the bridge to be beautiful and for the customers...</p>
-                                    <Link to='/second'>more...</Link>
+                                    <Link to='/webDevelop'>more...</Link>
                                 </div>
                             </div>
 
@@ -59,7 +59,7 @@ const DeploymentServices = () => {
                                 <div className="col-9 text-white">
                                     <h4>Mobile Dev</h4>
                                     <p>There is a web design for the bridge to be beautiful and for the customers...</p>
-                                    <Link to='/fourth'>more...</Link>
+                                    <Link to='/mobDevelop'>more...</Link>
                                 </div>
                             </div>
 
@@ -75,7 +75,7 @@ const DeploymentServices = () => {
                                     <div className="col-9 ">
                                         <h4>UI/UX Design</h4>
                                         <p>There is a web design for the bridge to be beautiful and for the customers...</p>
-                                        <Link>more...</Link>
+                                        <Link to='ui:uxDesign'>more...</Link>
                                     </div>
                                 </div>
 
@@ -90,7 +90,7 @@ const DeploymentServices = () => {
                                     <div className="col-9 text-white">
                                         <h4>Automation</h4>
                                         <p>There is a web design for the bridge to be beautiful and for the customers...</p>
-                                        <Link>more...</Link>
+                                        <Link to='automation'>more...</Link>
                                     </div>
                                 </div>
 

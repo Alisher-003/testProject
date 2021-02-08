@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './main.css'
 import MainNavbar from "./MainNavbar";
-import testDeployment from "../images/testDeployment.png";
+import testDeployment from "../images/deploymentBack1.png";
 
 class DeploymentNavbar extends Component {
     render() {

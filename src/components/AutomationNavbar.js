@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import MainNavbar from "./MainNavbar";
-import testAutomation from "../images/testAutomation.png";
+import testAutomation from "../images/automationBack1.png";
 import "./main.css"
 
 class AutomationNavbar extends Component {
