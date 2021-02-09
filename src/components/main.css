@@ -5,6 +5,8 @@ header .navbar-brand{
 
 header{
     background-image: url("../navbar.photo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 header .navbar-nav .nav-item .nav-link{
     color: black;
@@ -60,11 +62,11 @@ section#advantages .container{
     margin-top: 200px;
     margin-bottom: 180px;
 }
-section#advantages .col-4 h3{
+section#advantages .col-xl-4 h3{
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 40px;
-    width: 150%;
+    width: 120%;
 }
 section#advantages p{
     font-size: 16px;
@@ -78,45 +80,45 @@ section#advantages .tech-yard {
     padding-right: 20px;
 }
 
-section#advantages .col-7 {
+section#advantages .col-xl-7 {
     margin-left: 95px;
     border-radius: 10px;
     background-image: linear-gradient(90deg, rgb(34, 55, 85), rgb(104, 117, 134));
     padding-top: 40px;
 }
 
-section#advantages .col-7 h3{
+section#advantages .col-xl-7 h3{
     color: white;
     margin-bottom: 30px;
     margin-left: 20px;
 }
 
-section#advantages .col-7 .col-6:nth-child(1) .col-4{
-    /*background-image: url("../images/high.svg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: 90% 90%;*/
-    border: none;
-}
-section#advantages .col-7 .col-6:nth-child(2) .col-4{
-    border: none;
-}
-section#advantages .col-7 .col-6:nth-child(3) .col-4{
-    border: none;
-}
-section#advantages .col-7 .col-6:nth-child(4) .col-4{
-    border: none;
-}
-section#advantages .col-7 .col-6:nth-child(5) .col-4{
-    border: none;
-}
-section#advantages .col-7 .col-6:nth-child(6) .col-4{
-    border: none;
-}
-section#advantages .col-7 .col-6 .col-8 h6{
-font-weight: 700;
+/*section#advantages .col-md-7 .col-6:nth-child(1) .col-4{*/
+/*    !*background-image: url("../images/high.svg");*!*/
+/*    !*background-repeat: no-repeat;*!*/
+/*    !*background-size: 90% 90%;*!*/
+/*    border: none;*/
+/*}*/
+/*section#advantages .col-md-7 .col-6:nth-child(2) .col-4{*/
+/*    border: none;*/
+/*}*/
+/*section#advantages .col-md-7 .col-6:nth-child(3) .col-4{*/
+/*    border: none;*/
+/*}*/
+/*section#advantages .col-md-7 .col-6:nth-child(4) .col-4{*/
+/*    border: none;*/
+/*}*/
+/*section#advantages .col-md-7 .col-6:nth-child(5) .col-4{*/
+/*    border: none;*/
+/*}*/
+/*section#advantages .col-md-7 .col-6:nth-child(6) .col-4{*/
+/*    border: none;*/
+/*}*/
+section#advantages .col-xl-7 .col-md-6 .col-8 h6{
+    font-weight: 700;
     margin-bottom: 10px;
 }
-section#advantages .col-7 .col-6 .col-8 p{
+section#advantages .col-xl-7 .col-md-6 .col-8 p{
     font-size: 13px;
     font-weight: 400;
     width: 110%;

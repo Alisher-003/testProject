@@ -11,9 +11,9 @@ import foto6 from "../images/advantages6.png"
 const Advantages = () => {
     return (
         <section id='advantages' className='mt-5'>
-            <div className="container">
+            <div className="container pl-5 pl-md-1">
                 <div className="row">
-                    <div className="col-4 tech-yard">
+                    <div className="col-xl-4 col-12 tech-yard">
                         <h3>Teach Yard – Your Digital Solutions Architect</h3>
                         <p>“Get Rid of All Digital Problems with Tech Yard!
                             We are an IT Company that provides the best medium-class service on Internet. No matter what
@@ -23,11 +23,11 @@ const Advantages = () => {
                             design – we work only with the middle segment and try to become the best software company in
                             the World.”</p>
                     </div>
-                    <div className="col-7">
+                    <div className="col-xl-7 ml-xl-auto ml-0 col-12">
                         <h3>Our advantages</h3>
                         <div className="container m-0">
                             <div className="row">
-                                <div className="col-6 mb-4">
+                                <div className="col-md-6 col-12 mb-4">
                                     <div className="row">
                                         <div className="col-4">
                                             <img src={foto1} alt=""/>
@@ -41,7 +41,7 @@ const Advantages = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mb-4">
+                                <div className="col-md-6 col-12 mb-4">
                                     <div className="row">
                                         <div className="col-4">
                                             <img src={foto2} alt=""/>
@@ -55,7 +55,7 @@ const Advantages = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mb-4">
+                                <div className="col-md-6 col-12 mb-4">
                                     <div className="row">
                                         <div className="col-4">
                                             <img src={foto3} alt=""/>
@@ -69,7 +69,7 @@ const Advantages = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mb-4">
+                                <div className="col-md-6 col-12 mb-4">
                                     <div className="row">
                                         <div className="col-4">
                                             <img src={foto4} alt=""/>
@@ -83,7 +83,7 @@ const Advantages = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mb-4">
+                                <div className="col-md-6 col-12 mb-4">
                                     <div className="row">
                                         <div className="col-4">
                                             <img src={foto5} alt=""/>
@@ -97,7 +97,7 @@ const Advantages = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mb-4">
+                                <div className="col-md-6 col-12 mb-4">
                                     <div className="row">
                                         <div className="col-4">
                                             <img src={foto6} alt=""/>
