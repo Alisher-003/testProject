@@ -21,7 +21,7 @@ const Services = () => {
                         <h2>Services</h2>
                     </div>
                 <div className="row">
-                    <div className="col-4 mb-4">
+                    <div className="col-md-6 col-xl-4 col-12 mb-4">
                         <div className="card">
                             <div className="row">
                                 <div className="col-3 pt-4">
@@ -36,7 +36,7 @@ const Services = () => {
 
                         </div>
                     </div>
-                    <div className='col-4 mb-4'>
+                    <div className='col-md-6 col-xl-4 col-12 mb-4'>
                         <div className="card">
                             <div className="row">
                                 <div className="col-3 pt-4 ">
@@ -51,7 +51,7 @@ const Services = () => {
 
                         </div>
                     </div>
-                    <div className="col-4 mb-4">
+                    <div className="col-md-6 col-xl-4 col-12 mb-4">
                         <div className="card">
                             <div className="row">
                                 <div className="col-3 pt-4">
@@ -66,7 +66,7 @@ const Services = () => {
 
                         </div>
                     </div>
-                    <div className="col-4 mb-4">
+                    <div className="col-md-6 col-xl-4 col-12 mb-4">
                         <div className="card">
                             <div className="row">
                                 <div className="col-3 pt-4">
@@ -81,7 +81,7 @@ const Services = () => {
 
                         </div>
                     </div>
-                    <div className="col-4 mb-4">
+                    <div className="col-md-6 col-xl-4 col-12 mb-4">
                         <div className="card">
                             <div className="row">
                                 <div className="col-3 pt-4">
@@ -96,7 +96,7 @@ const Services = () => {
 
                         </div>
                     </div>
-                    <div className="col-4 mb-4">
+                    <div className="col-md-6 col-xl-4 col-12 mb-4">
                         <div className="card">
                             <div className="row">
                                 <div className="col-3 pt-4">
